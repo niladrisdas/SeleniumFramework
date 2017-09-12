@@ -142,6 +142,7 @@ public class ReadExcel {
 						we.setStartTimeTc(filepath, filename, row);
 						readSteps(ua, path, name, ssFolder, ieDriverPath);
 						results = "Passed";
+						//comments
 						we.writeXcelTc(filepath, filename, results, row);
 						we.setEndTimeTc(filepath, filename, row);
 						we.calculateTotalTimeTc(filepath, filename, row);
