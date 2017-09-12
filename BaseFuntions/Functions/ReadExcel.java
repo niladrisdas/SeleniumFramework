@@ -69,8 +69,7 @@ public class ReadExcel {
 								url = sh1.getRow(j).getCell(1).getStringCellValue();
 								log.info("URL=" + url);
 								System.out.println(" ");
-								// Runtime.getRuntime().exec("taskkill /F /IM
-								// IEDriverServer.exe");
+								// Runtime.getRuntime().exec("taskkill /F /IM IEDriverServer.exe");
 								File file1 = new File(IEDriver);
 								System.setProperty("webdriver.ie.driver", file1.getAbsolutePath());
 								driver = new InternetExplorerDriver();
